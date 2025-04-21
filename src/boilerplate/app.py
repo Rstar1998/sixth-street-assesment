@@ -50,7 +50,7 @@ def get_keys():
     payload = {}
     headers = {
     'Content-Type': 'application/json',
-    'Authorization': 'Bearer 92116ac870f14c4bb937a35efb4f6f70'
+    'Authorization': 'Bearer '
     }
 
     response = requests.request("GET", url, headers=headers, data=payload)
